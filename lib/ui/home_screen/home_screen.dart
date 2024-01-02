@@ -28,7 +28,7 @@ class HomeScreen extends StatelessWidget {
               ],
             ),
              const SizedBox(height: 25,),
-              Text('${Provider.of<TaskData>(context).tasks.length}Tasks',
+              Text('${Provider.of<TaskData>(context).tasks.length} Tasks',
               style:
               const TextStyle(fontSize: 25,color: Colors.white,
                   fontWeight: FontWeight.normal),),
